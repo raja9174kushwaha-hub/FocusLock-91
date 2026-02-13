@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  focuslock-ai:
+    build: .
+    container_name: focuslock-ai-app
+    ports:
+      - "8080:80"
+    environment:
+      # IMPORTANT: Replace this with your actual Gemini API Key
+      # You can also use a .env file for this
+      - API_KEY=YOUR_GEMINI_API_KEY_HERE
+    restart: unless-stopped

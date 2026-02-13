@@ -1,0 +1,16 @@
+{
+  "name": "focuslock-ai",
+  "version": "1.0.0",
+  "description": "A high-performance focus and distraction control dashboard with AI-driven usage analysis and rule management.",
+  "private": true,
+  "scripts": {
+    "start": "echo \"Please use Docker for deployment. See docker-compose.yml and requirements.md\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.40.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^6.22.3",
+    "recharts": "^2.12.2"
+  }
+}
